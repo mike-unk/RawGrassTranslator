@@ -8,7 +8,7 @@
 
 本程序无需安装，即下即用。
 
-如果您需要通过 Python 运行源代码，您要安装 [Python 的谷歌翻译模块](https://github.com/ssut/py-googletrans)。
+如果您想通过 Python 运行源代码，您需要安装 [Python 的谷歌翻译模块](https://github.com/ssut/py-googletrans)。
 
 可以用一条命令安装它：
 
@@ -26,9 +26,20 @@ python3 -m pip install googletrans
 
 ### Windows
 
-您无需安装 Python，双击 `rawgrass.exe` 然后按照提示操作。
+您无需安装 Python，双击 `rawgrass.exe` 然后按照提示操作即可。
 
-您也可以通过 Python 运行 `rawgrass.py`。
+您也可以通过 Python 运行 `rawgrass.py`，但前提是您已经安装 [Python 的谷歌翻译模块](https://github.com/ssut/py-googletrans)。
+
+### macOS/Linux
+
+您需要运行源代码，所以需要安装 [Python 的谷歌翻译模块](https://github.com/ssut/py-googletrans)。参照[“安装教程”](#安装教程)一节。
+
+`rawgrass-python.py` 的文件开头有 `#!/usr/bin/env python` 而且可执行，直接在终端中运行（输入 `./rawgrass-python.py`）即可。
+
+`rawgrass-python3.py` 的文件开头有 `#!/usr/bin/env python3` 而且可执行，直接在终端中运行（输入 `./rawgrass-python3.py`）即可。
+
+当然，直接用 Python 运行 `rawgrass.py` 也是可以的。
+
 
 ## 参与贡献
 
