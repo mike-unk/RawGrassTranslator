@@ -1,36 +1,49 @@
 # RawGrassTranslator
 
-#### Description
-生草翻译机
+## Description
 
-#### Software Architecture
-Software architecture description
+In the translation industry, there are "raw meat" and "cooked meat", where "raw meat" refers to something that has not been translated, and "cooked meat" refers to something that has been translated. However, some things will be completely separated from the original meaning after being translated many times by the machine. We call it "raw grass". Raw Grass Translator helps you turn "raw meat" into "raw grass" with Google Translate.
 
-#### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Installation
 
-#### Instructions
+This program does not need to be installed and is ready to use right away.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+If you want to run the source code from Python, you need to install [Google Translate module for Python](https://github.com/ssut/py-googletrans).
 
-#### Contribution
+It can be installed with one command:
+
+```bash
+python -m pip install googletrans
+```
+
+Alternatively, if you want to use Python 3, you can use the following command:
+
+```bash
+python3 -m pip install googletrans
+```
+
+## Instructions
+
+### Windows
+
+You don't need to install Python, just double-click `rawgrass.exe` and follow the instructions.
+
+You can also run `rawgrass.py` from Python, but only if you have the [Google Translate module for Python](https://github.com/ssut/py-googletrans) installed.
+
+### macOS / Linux
+
+You need to run the source code, so you need to install the [Google Translate module for Python](https://github.com/ssut/py-googletrans). See the ["Installation"](#Installation) section.
+
+The file `rawgrass-python.py` has `#!/usr/bin/env python` at the beginning and is executable and can be run directly in the terminal (type `./rawgrass-python.py`).
+
+The file `rawgrass-python3.py` has `#!/usr/bin/env python3` at the beginning and is executable and can be run directly in the terminal (type `./rawgrass-python3.py`).
+
+Of course, it is also possible to run `rawgrass.py` directly from Python.
+
+## Contribution
 
 1.  Fork the repository
 2.  Create Feat_xxx branch
 3.  Commit your code
 4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
